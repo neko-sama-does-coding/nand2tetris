@@ -23,7 +23,7 @@ And3Way(a=b, b=notsel1, c=sel[0], out=ifbtrue);
 
 //Fourth, we check if c, selector 1 and not selector 2 are all true.
 //That way, if the selector is 10 and c is true, the output of this gate will be true.
-And3Way(a=c, b=sel[1], c=notsel0, out=ifctrue);
+And3Way(a=c, b=sel[1], c=notsel[0], out=ifctrue);
 
 //Fifth, we check if d, selector 1 and selector 2 are all true.
 //That way, if the selector is 11 and d is true, the output of this gate will be true.
